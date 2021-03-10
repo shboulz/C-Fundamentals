@@ -25,7 +25,6 @@ namespace Conditionals
 
             // Console.WriteLine((numTwo == 30) ? "True" : "False"); another way to write or test for better visual of how it works. 
 
-
         }
     }
 }
