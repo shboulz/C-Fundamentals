@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopExamples", "LoopExample
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morning-Challenge-W1D3-Conditions-Loops", "Morning-Challenge-W1D3-Conditions-Loops\Morning-Challenge-W1D3-Conditions-Loops.csproj", "{E18961EB-6E5F-4F66-B18D-8C3601189017}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{0E450272-C76B-4277-9909-80D85DECDA64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceClasses", "InheritanceClasses\InheritanceClasses.csproj", "{44675BAD-9014-4FC8-A8AA-A2367E9D1EF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{E18961EB-6E5F-4F66-B18D-8C3601189017}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E18961EB-6E5F-4F66-B18D-8C3601189017}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E18961EB-6E5F-4F66-B18D-8C3601189017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E450272-C76B-4277-9909-80D85DECDA64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E450272-C76B-4277-9909-80D85DECDA64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E450272-C76B-4277-9909-80D85DECDA64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E450272-C76B-4277-9909-80D85DECDA64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44675BAD-9014-4FC8-A8AA-A2367E9D1EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44675BAD-9014-4FC8-A8AA-A2367E9D1EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44675BAD-9014-4FC8-A8AA-A2367E9D1EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44675BAD-9014-4FC8-A8AA-A2367E9D1EF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
