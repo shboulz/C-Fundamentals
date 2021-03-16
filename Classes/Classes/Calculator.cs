@@ -27,5 +27,10 @@ namespace Classes
             int years = Convert.ToInt32(Math.Floor(totalAgeInYears));
             return years;
         }
+        public string Numbers(string luckyNumber)
+        {
+            int pickedNumber = int.Parse(luckyNumber);
+            return luckyNumber;
+        }
     }
 }
