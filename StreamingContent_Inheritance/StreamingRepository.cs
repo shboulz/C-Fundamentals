@@ -75,7 +75,33 @@ namespace StreamingContent_Inheritance
 
         
         //get by RunTime/AverageRunTime
-        
+        public List<Movie> GetMovieByRunTime(double runTime)
+        {
+            List<Movie> moviesByRunTime = new List<Movie>();
+            //List<Movie> allMovies = GetAllMovies();
+            foreach(Movie content in _contentDirectory)
+            {
+                if(content.RunTime == runTime)
+                {
+                    moviesByRunTime.Add(content);
+                }
+            }
+            return moviesByRunTime;
+        }
+
+        public List<Show> GetShowsByAverageRunTime(double averageRunTime)
+        {
+            List<Show> showsByAverageRunTime = new List<Show>();
+            //List<Show> allShows = GetAllShows();
+            foreach(Show content in _contentDirectory)
+            {
+                if(content.AverageRunTime == averageRunTime)
+                {
+                    showsByAverageRunTime.Add(content);
+                }
+            }
+            return showsByAverageRunTime;
+        }
         //get shows with over x episodes
         //get shows/movie by rating
     }
